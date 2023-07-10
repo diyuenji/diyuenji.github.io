@@ -1,0 +1,117 @@
+body {
+    display: block;
+    margin: 8px;
+    background: gray;
+    
+}
+h2{
+    margin-left:10px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+table{
+    border-collapse: collapse;
+    width: 800px;
+    background-color:rgb(115, 109, 109) ;
+    border: 0px solid;
+}
+th{
+    text-align:left;
+    text-indent: 10px;
+    height: 50px;
+    font-size: 25px;
+    color: gray;
+   
+}
+td{
+    padding: 0; 
+   margin: 0;
+}
+tr.a { 
+    height:50px;
+}
+a1{
+    word-spacing: 10px;
+}
+p {
+   margin-left: 10px;
+}
+a.l{
+    color:white;
+}
+td.t {
+    height: 0px;
+    background-color: blue;
+    text-indent: 40px;
+}
+td.left {
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    text-align: Left;
+  }
+td.right {
+    background-color: rgb(255, 255, 255);
+    
+  }
+td.f {
+    text-align:center;
+    font-weight: bold;
+    background-color:blue;
+    height: 50px;
+    font-size: 25px;
+}
+
+#left1{
+    float: left;
+    width: 250px;
+    position:relative;
+    top: -95px;
+    height: 150px;
+    display: inline;
+    background-color: yellow;
+    
+}
+#left2{
+    float: left;
+    width: 250px;
+    position:relative;
+    top:-95px;
+    height: 150px;
+    display: inline;
+    background-color: gray;
+}
+#right1{
+    float: right;
+    width:550px;
+    position: relative;
+    display: inline;
+    background-color: white;
+    
+}
+#right2a{
+    float: right;
+    left:-275px;
+    width:275px;
+    position:relative;
+    height: 128px;
+    display: inline;
+    background-color: green;
+}
+#right2b{
+    float: right;
+    left:275px;
+    width:275px;
+    position:relative;
+    height: 128px;
+    display: inline;
+    background-color: red;
+}
+.clearer {
+    height: 1px;
+    overflow: hidden;
+    margin-top: -1px;
+    clear: both;
+}
